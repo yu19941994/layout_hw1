@@ -56,11 +56,15 @@ p{
 h1{
   padding: 47px 0;
   font-size: 80px;
+  line-height: 94px;
+  border-bottom: 1px solid black;
 }
 
 h2{
   font-size: 32px;
+  line-height: 45px;
   line-height: 43px;	
+  border-bottom: 1px solid black;
 }
 
 h2 > span{
@@ -74,18 +78,18 @@ p{
 
 .container{
   margin: 0 auto;
-  width: 1000px;
+  width: 1200px;
 }
 
 .photo{
   display: block;
   max-width: 324px;
   margin-top: 48px;
-  margin-bottom: 58px;
+  margin-bottom: 48px;
 }
 
 .profile, .education{
-  margin-bottom: 82px;
+  margin-bottom: 72px;
 }
 
 .profile_main{
@@ -93,7 +97,7 @@ p{
 }
 
 .skills{
-  margin-bottom: 82px;
+  margin-bottom: 72px;
 }
 
 .skills, .contact_method{
@@ -136,7 +140,18 @@ p{
 	width: 90px;
 }
 
-.icons > img {
+.skills_text > li, .contact_text > li, .work_detail > li{
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 20px;
+}
+
+.contact_text > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+.icons > a > img {
   padding: 12px;
 }
 
